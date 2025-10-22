@@ -1,0 +1,109 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ### VS Code ###
+# .vscode/
+
+# === Java ===
+# Archivos compilados (.class)
+*.class
+# Archivos de log
+*.log
+# Archivos temporales del sistema
+*.tmp
+*.swp
+*.bak
+
+# === Maven ===
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# === Gradle ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+.gradle-cache/
+
+# === Spring Boot ===
+# Configuraciones locales
+application-local.properties
+application-dev.properties
+application-test.properties
+# Credenciales sensibles o tokens
+*.env
+.env
+*.key
+*.pem
+
+# === IDEs ===
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
+.idea/
+*.iml
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# === Sistema Operativo ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Otros ===
+# Archivos de prueba temporales
+test-output/
+# Archivos de cobertura
+coverage/
+# Archivos de build o empaquetados
+*.jar
+*.war
+*.ear
+# Directorio de reportes
+reports/
+# Archivos generados automáticamente
+generated/
