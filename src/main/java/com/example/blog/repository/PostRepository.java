@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.example.blog.model.Post;
 
 @Repository
-public interface PostInterface extends JpaRepository<Post, Long> {
+public interface PostRepository extends JpaRepository<Post, Long> {
 
     List<Post> findByAuthorUsername(String username);
 
